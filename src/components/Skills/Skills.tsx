@@ -12,7 +12,10 @@ const Skills: React.FC = () => {
               {profileData.skills.map((skill) => (
                 <div className="col-md-6" key={skill.id}>
                   <div className="progress-container progress-primary">
-                    <span className="progress-badge">{skill.skill}</span>
+                    <span className="progress-badge" style={{ fontSize: '1.1em' }}>{skill.category}</span>
+                    <div style={{ fontSize: '0.85em', opacity: 0.8, marginBottom: '8px', lineHeight: '1.4' }}>
+                      {skill.skill}
+                    </div>
                     <div className="progress">
                       <div
                         className="progress-bar progress-bar-primary"

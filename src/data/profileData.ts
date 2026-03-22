@@ -7,22 +7,23 @@ export const profileData = {
   resumeurl: `https://drive.google.com/file/d/11fUSKY9LSWyGqoJb-qK90PXDbJXFU0Ls`, // Placeholder from previous, can update later if needed
 
   skills: [
-    { id: '1', skill: 'Java (8/11/17/21/25), J2EE, Groovy', progress: '95%' },
-    { id: '2', skill: 'Spring Ecosystem (Boot, MVC, Batch, Cloud, AI)', progress: '95%' },
-    { id: '3', skill: 'Angular, React, TypeScript', progress: '85%' },
-    { id: '4', skill: 'Microservices & RESTful APIs', progress: '90%' },
-    { id: '5', skill: 'Apache Kafka, RabbitMQ', progress: '85%' },
-    { id: '6', skill: 'GCP, PCF, OCP, Docker, Kubernetes, AWS, Azure', progress: '85%' },
-    { id: '7', skill: 'PostgreSQL, MySQL, Oracle DB, SQL Server, MongoDB', progress: '80%' },
-    { id: '8', skill: 'Jenkins, Concourse, Maven, Git', progress: '90%' },
-    { id: '9', skill: 'JUnit, Spock, Mockito (TDD)', progress: '90%' }
+    { id: '1', category: 'Languages', skill: 'Java (8/11/17/21), J2EE, Groovy, TypeScript, JavaScript, SQL, HTML5, CSS3', progress: '95%' },
+    { id: '2', category: 'Frameworks', skill: 'Spring Ecosystem (Boot, MVC, Batch, Data, Cloud, Security, AI), Hibernate (ORM), Angular (14+), React, Node.js, Express, JAX-RS', progress: '95%' },
+    { id: '3', category: 'Microservices', skill: 'RESTful APIs, 12-Factor App Methodology, Spring Cloud, API Gateway', progress: '90%' },
+    { id: '4', category: 'Messaging & Integration', skill: 'Apache Kafka, RabbitMQ, ZeroMQ, ActiveMQ, Web Services (REST/SOAP)', progress: '85%' },
+    { id: '5', category: 'Cloud & DevOps', skill: 'Google Cloud Platform (GCP), Pivotal Cloud Foundry (PCF), OpenShift (OCP), Docker, Kubernetes', progress: '85%' },
+    { id: '6', category: 'CI/CD & Build', skill: 'Jenkins, Concourse, Maven, Gradle, Git, SVN, Bitbucket', progress: '90%' },
+    { id: '7', category: 'Databases', skill: 'PostgreSQL, MySQL, Oracle DB, SQL Server, MongoDB', progress: '85%' },
+    { id: '8', category: 'Testing & Quality', skill: 'JUnit, Spock, Mockito, Test-Driven Development (TDD), Log4j', progress: '90%' },
+    { id: '9', category: 'Monitoring & Logging', skill: 'New Relic, Dynatrace, Splunk, ELK Stack', progress: '85%' },
+    { id: '10', category: 'Methodologies', skill: 'Agile, Scrum, Kanban, SDLC, RUP, Waterfall, Pair Programming', progress: '90%' }
   ],
 
   education: [
     {
       id: '1',
       from_to_year: 'Graduated: 2017',
-      education: "Master of Science",
+      education: "Master Degree",
       stream: 'Computer Science',
       info: `Key Courses: Fundamental Programming Practice, Modern Programming Practice, Web Application Programming, Algorithm, Web Application Architecture and Frameworks, Enterprise Architecture, Advanced Software Development`,
       institution: 'Maharishi University of Management, Fairfield, Iowa, US'
@@ -30,7 +31,7 @@ export const profileData = {
     {
       id: '2',
       from_to_year: 'Graduated: 2010',
-      education: "Bachelor of Engineering",
+      education: "Bachelor Degree",
       stream: 'Computer Engineering',
       institution: 'Himalaya College of Engineering, Kathmandu, Nepal',
       info: `Computer Engineering.`
